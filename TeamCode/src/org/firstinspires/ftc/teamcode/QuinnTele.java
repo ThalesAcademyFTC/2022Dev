@@ -24,32 +24,7 @@ public class QuinnTele extends OpMode {
 
         //In the gap below would normally be where you would create if statements for buttons
         if (gamepad1.x) {
-            robot.moveForwardFT(600,0.5);
-            robot.turnLeftFT(4334,0.5);
-            robot.moveForwardFT(600,0.5);
-            robot.turnLeftFT(4334,0.5);
-            robot.moveForwardFT(600,0.5);
-            robot.turnLeftFT(4334,0.5);
-            robot.moveForwardFT(600,0.5);
-            robot.turnLeftFT(1300,0.5);
-            robot.moveForwardFT(600,0.5);
-            robot.turnLeftFT(1300,0.5);
-            robot.moveForwardFT(600,0.5);
-            robot.turnLeftFT(1300,0.5);
-            robot.moveForwardFT(600,0.5);
-            robot.turnLeftFT(1300,0.5);
-            robot.moveForwardFT(600,0.5);
-            robot.turnLeftFT(866,0.5);
-            robot.moveForwardFT(600,0.5);
-            robot.turnLeftFT(866,0.5);
-            robot.moveForwardFT(600,0.5);
-            robot.turnLeftFT(866,0.5);
-            robot.moveForwardFT(600,0.5);
-            robot.turnLeftFT(866,0.5);
-            robot.moveForwardFT(600,0.5);
-            robot.turnLeftFT(866,0.5);
-            robot.moveForwardFT(600,0.5);
-            robot.turnLeftFT(866,0.5);
+            robot.moveForward(10);
         }
 
         //MOVEMENT
