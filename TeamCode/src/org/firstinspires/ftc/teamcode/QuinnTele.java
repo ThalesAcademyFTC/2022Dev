@@ -23,9 +23,10 @@ public class QuinnTele extends OpMode {
 
 
         //In the gap below would normally be where you would create if statements for buttons
-        if (gamepad1.right_stick_y>=0.5) {
-            robot.moveForwardFT(100,0.5);
+        if (gamepad1.y) {
+            robot.moveRight(0.5);
         }
+        else robot.moveLeft(0.5);
 
         //MOVEMENT
         //First, we want to make the robot rest if the gamepad is not being touched
