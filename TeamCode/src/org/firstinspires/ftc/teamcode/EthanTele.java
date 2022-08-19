@@ -5,7 +5,7 @@ import com.qualcomm.robotcore.eventloop.opmode.TeleOp;
 
 @TeleOp(name="EthanTele")
 //@Disabled
-public class Tele extends OpMode {
+public class EthanTele extends OpMode {
 
     private Spark robot;
 
@@ -23,9 +23,13 @@ public class Tele extends OpMode {
 
 
         //In the gap below would normally be where you would create if statements for buttons
-        if (gamepad1.x) {
+        if (gamepad1.left_stick_x > 0.5) robot.moveRight(0.5);
+        if (gamepad1.left_stick_x < -0.5) robot.moveLeft(0.5);
+        if (gamepad1.left_stick_y > 0.5) robot.moveForward(0.5);
+        if (gamepad1.left_stick_y < -0.5) robot.moveBackward(0.5);
 
-        }
+        if (gamepad1.right_stick_x < -0.5) robot.turnLeft(0.5);
+        if (gamepad1.right_stick_x > 0.5) robot.turnRight(0.5);
 
         //MOVEMENT
         //First, we want to make the robot rest if the gamepad is not being touched
