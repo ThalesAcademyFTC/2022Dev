@@ -5,7 +5,7 @@ import com.qualcomm.robotcore.eventloop.opmode.TeleOp;
 
 @TeleOp(name="EthanTele")
 //@Disabled
-public class Tele extends OpMode {
+public class  Tele extends OpMode {
 
     private Spark robot;
 

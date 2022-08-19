@@ -23,8 +23,8 @@ public class QuinnTele extends OpMode {
 
 
         //In the gap below would normally be where you would create if statements for buttons
-        if (gamepad1.dpad_left){
-            robot.moveLeft(10);
+        if (gamepad1.dpad_left) {
+            robot.moveLeft(1);
         }
 
 
