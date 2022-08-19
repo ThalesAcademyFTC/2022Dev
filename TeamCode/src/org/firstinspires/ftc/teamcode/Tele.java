@@ -3,7 +3,7 @@ package org.firstinspires.ftc.teamcode;
 import com.qualcomm.robotcore.eventloop.opmode.OpMode;
 import com.qualcomm.robotcore.eventloop.opmode.TeleOp;
 
-@TeleOp(name="EthanTele")
+@TeleOp(name="Tele")
 //@Disabled
 public class  Tele extends OpMode {
 
