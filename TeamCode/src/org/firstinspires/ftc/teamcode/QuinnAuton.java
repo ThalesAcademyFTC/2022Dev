@@ -22,7 +22,6 @@ public class QuinnAuton extends LinearOpMode {
         //Code Above the waitForStart() is where you define variables or initialize any Vuforia
         //DO NOT PUT MOVEMENT CODE HERE - YOU WILL BE PENALIZED
 
-        //weeee
 
         waitForStart(); //Below this point is where you place the linear code for your autonomous.
         //Any code that goes in this space is only run once, and after it is finished the program ends.
