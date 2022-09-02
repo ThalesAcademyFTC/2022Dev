@@ -76,6 +76,8 @@ public class QuinnAuton extends LinearOpMode {
         robot.moveForwardFT(600,0.5);
         sleep(100);
         robot.turnLeftFT(866,0.5);
+        sleep(100);
+        robot.turnRightFT(1000,0.5);
        // Example
         // robot.moveForwardFT(1000, 0.5);
 
