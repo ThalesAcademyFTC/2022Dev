@@ -80,6 +80,7 @@ public class QuinnAuton extends LinearOpMode {
         robot.turnRightFT(1000,0.5);
        // Example
         // robot.moveForwardFT(1000, 0.5);
+        robot.rest();
 
 
         //Inside of the while statement below is any code that you want to run in loop during autonomous.
